@@ -82,11 +82,16 @@
 \RequirePackage{parskip}
 % Needed to deal hyperlink
 \RequirePackage[hidelinks,unicode]{hyperref}
-\hypersetup{%
-  pdftitle={},
-  pdfauthor={},
-  pdfsubject={},
-  pdfkeywords={}
+% \hypersetup{%
+%   pdftitle={},
+%   pdfauthor={},
+%   pdfsubject={},
+%   pdfkeywords={}
+% }
+\RequirePackage{xcolor}
+\hypersetup{	 
+    colorlinks,
+    allcolors=black
 }
 
 
@@ -641,7 +646,8 @@
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}
   \begin{justify}
-  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+  \begin{itemize}[leftmargin=2ex, nosep]
+  	\setlength\itemsep{0.15em}
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
