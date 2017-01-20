@@ -93,6 +93,7 @@
     colorlinks,
     allcolors=black
 }
+\RequirePackage{leading}
 
 
 %-------------------------------------------------------------------------------
