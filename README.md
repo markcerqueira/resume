@@ -11,7 +11,3 @@ This résumé was adapted from [AwesomeCV](https://github.com/posquit0/Awesome-C
 1. Open mark-cerqueira-resume.tex in texmaker
 1. Use `LuaLaTeX` to run and produce `mark-cerqueira-resume.pdf`
 1. Each section of the resume is stored in separate files in the `sections` folder
-
-#### Todo
-
-* Add links to source code and websites
